@@ -51,5 +51,19 @@ namespace StoreBackend.Api.Controllers
             var model = ProductMapper.ToModel(addedProduct);
             return CreatedAtAction(nameof(GetProduct), new {id= model.ProductResourceId }, model);
         }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct(Guid id)
+        {
+            try
+            {
+                await productFacade.DeleteAsync(id);
+                return Ok();
+            }
+            catch (ResourceNotFoundException)
+            {
+                return NotFound();
+            }
+        }
     }
 }
