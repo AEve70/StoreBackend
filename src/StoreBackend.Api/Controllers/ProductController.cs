@@ -42,5 +42,14 @@ namespace StoreBackend.Api.Controllers
                 return NotFound();
             }
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AddProduct([FromBody] CreateProductRequestModel product)
+        {
+            var dto = ProductMapper.ToDto(product);
+            var addedProduct = await productFacade.AddAsync(dto);
+            var model = ProductMapper.ToModel(addedProduct);
+            return CreatedAtAction(nameof(GetProduct), new {id= model.ProductResourceId }, model);
+        }
     }
 }
