@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {}
+    "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {
+    "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
+        "projectUniqueName": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
         "projectName": "StoreBackend.Exceptions",
-        "projectPath": "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
+        "projectPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
         "packagesPath": "C:\\Users\\Profesores\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\obj\\",
+        "outputPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Profesores\\AppData\\Roaming\\NuGet\\NuGet.Config"

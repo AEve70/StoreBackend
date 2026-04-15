@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj",
       "projectName": "StoreBackend.Domain",
-      "projectPath": "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj",
+      "projectPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj",
       "packagesPath": "C:\\Users\\Profesores\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Profesores\\AppData\\Roaming\\NuGet\\NuGet.Config"

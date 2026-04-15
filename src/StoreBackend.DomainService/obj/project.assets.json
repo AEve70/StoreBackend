@@ -3734,11 +3734,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
+      "projectUniqueName": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
       "projectName": "StoreBackend.DomainService",
-      "projectPath": "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
+      "projectPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
       "packagesPath": "C:\\Users\\Profesores\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.DomainService\\obj\\",
+      "outputPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.DomainService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Profesores\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3753,17 +3753,17 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {
-              "projectPath": "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj"
+            "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {
+              "projectPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj"
             },
-            "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {
-              "projectPath": "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj"
+            "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {
+              "projectPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj"
             },
-            "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {
-              "projectPath": "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj"
+            "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {
+              "projectPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj"
             },
-            "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj"
+            "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj"
             }
           }
         }

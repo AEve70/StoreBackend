@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WlLyoLYGmDQ=",
+  "dgSpecHash": "wftB5lcvEgQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Profesores\\Documents\\DEV-IV\\StoreBackend\\src\\StoreBackend.Api\\StoreBackend.Api.csproj",
+  "projectFilePath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Api\\StoreBackend.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Profesores\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Profesores\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
