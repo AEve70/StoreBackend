@@ -3263,19 +3263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Profesores\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Api\\StoreBackend.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Api\\StoreBackend.Api.csproj",
       "projectName": "StoreBackend.Api",
-      "projectPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Api\\StoreBackend.Api.csproj",
-      "packagesPath": "C:\\Users\\Profesores\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Api\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Api\\StoreBackend.Api.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Profesores\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -3287,11 +3287,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {
-              "projectPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj"
+            "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj"
             },
-            "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Facade\\StoreBackend.Facade.csproj": {
-              "projectPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Facade\\StoreBackend.Facade.csproj"
+            "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Facade\\StoreBackend.Facade.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Facade\\StoreBackend.Facade.csproj"
             }
           }
         }
@@ -3340,7 +3340,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

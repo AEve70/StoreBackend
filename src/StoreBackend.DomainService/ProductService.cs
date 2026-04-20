@@ -6,7 +6,7 @@ using StoreBackend.Infrastructure.Repositories;
 
 namespace StoreBackend.DomainService;
 
-public class ProductService
+public class ProductService : IProductService
 {
     private readonly IProductRepository _productRepository;
 
@@ -25,21 +25,21 @@ public class ProductService
         return _productRepository.GetByIdAsync(productId);
     }
 
-    public Task<Product> addAsync(ProductDto product)
+    public async Task DeleteAsync(Guid productId)
     {
-        var productEntity = new Product
+        var product = await _productRepository.GetByIdAsync(productId);
+        if (product == null) throw new ResourceNotFoundException();
+        await _productRepository.DeleteAsync(product);
+    }
+
+    public Task<Product> AddAsync(ProductDto product)
+    {
+         var productEntity = new Product
         {
             ProductResourceId = product.ProductResourceId,
             Name = product.Name
         };
 
         return _productRepository.AddAsync(productEntity);
-    }
-
-    public async Task DeleteAsync(Guid productId)
-    {
-        var product = await _productRepository.GetByIdAsync(productId);
-        if (product == null) throw new ResourceNotFoundException();
-        await _productRepository.DeleteAsync(product);
     }
 }

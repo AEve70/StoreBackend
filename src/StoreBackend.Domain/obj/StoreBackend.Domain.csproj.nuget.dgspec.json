@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj",
         "projectName": "StoreBackend.Domain",
-        "projectPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj",
-        "packagesPath": "C:\\Users\\Profesores\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Profesores\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

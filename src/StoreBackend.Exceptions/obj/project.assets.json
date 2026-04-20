@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Profesores\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
       "projectName": "StoreBackend.Exceptions",
-      "projectPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
-      "packagesPath": "C:\\Users\\Profesores\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Profesores\\Pictures\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\DEV-IV\\StoreBackend\\src\\StoreBackend.Exceptions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Profesores\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
