@@ -14,15 +14,20 @@ public class User
     [Required]
     public Guid ExternalId { get; set; }
 
+    [Column("Name")]
+    [StringLength(50)]
+    [Required]
+    public required string Name { get; set; }
+
     [Required]
     [MaxLength(50)]
-    public string Username { get; set; }
+    public required string Username { get; set; }
 
     [Required]
     [MaxLength(100)]
-    public string Email { get; set; }
+    public string Email { get; set; } = string.Empty;
 
     [Required]
     [MaxLength(256)]
-    public string PasswordHash { get; set; }
+    public string PasswordHash { get; set; } = string.Empty;
 }

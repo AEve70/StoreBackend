@@ -16,6 +16,14 @@ public class UserFacade : IUserFacade
         _userService = userService;
         context = dbContext;
     }
+
+    public async Task<UserDto> CreateUserAsync(CreateUserDto user)
+    {
+        var entity = await _userService.CreateUserAsync(user);
+        await context.SaveChangesAsync();
+        return UserMapper.ToUserDto(entity);
+    }
+
     public async Task<List<UserDto>> GetAllUsers()
     {
         var users = await _userService.GetAllUsers();
