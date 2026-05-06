@@ -10,7 +10,21 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+
 builder.Services.AddOpenApi();
+
+var allowedOrigins = builder.Configuration
+ .GetSection("Cors:AllowedOrigins")
+ .Get<string[]>();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowedOriginsPolicy", policy =>
+    {
+        policy.WithOrigins(allowedOrigins!)
+     .AllowAnyHeader()
+     .AllowAnyMethod();
+    });
+});
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(
@@ -29,6 +43,7 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IProductFacade, ProductFacade>();
 builder.Services.AddScoped<IUserFacade, UserFacade>();
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -38,6 +53,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowedOriginsPolicy");
 
 app.UseAuthorization();
 
