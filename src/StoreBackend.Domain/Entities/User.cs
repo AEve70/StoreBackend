@@ -30,4 +30,11 @@ public class User
     [Required]
     [MaxLength(256)]
     public string PasswordHash { get; set; } = string.Empty;
+
+     public List<UserRole> UserRoles { get; set; } = [];
+
+    public void ClearRoles()
+    {
+        UserRoles.Clear();
+    }
 }

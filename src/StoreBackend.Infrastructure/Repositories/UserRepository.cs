@@ -33,6 +33,23 @@ public class UserRepository : IUserRepository
     {
         return await _context.Users.AnyAsync(u => u.Username == username);
     }
+
+    public Task<User?> GetByUsername(string username)
+    {
+        return _context.Users
+         .Include(u => u.UserRoles)
+         .ThenInclude(ur => ur.Role)
+         .FirstOrDefaultAsync(u => u.Username == username);
+    }
+
+
+    public Task<User?> GetByIdAsync(Guid userId)
+    {
+        return _context.Users
+         .Include(u => u.UserRoles)
+         .ThenInclude(ur => ur.Role)
+         .FirstOrDefaultAsync(u => u.ExternalId == userId);
+    }
 }
 
 

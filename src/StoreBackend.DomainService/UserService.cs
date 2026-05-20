@@ -17,9 +17,14 @@ public class UserService : IUserService
 
     public async Task<User> CreateUserAsync(CreateUserDto user)
     {
-        if (await _userRepository.HasUserByUsernameAsync(user.Username)) throw new BadRequestResponseException("Username is already taken.");
-
-        if (await _userRepository.HasUserByEmailAsync(user.Email)) throw new BadRequestResponseException("Email is already taken.");
+        if (await _userRepository.HasUserByUsernameAsync(user.Username))
+        {
+            throw new Exceptions.BadRequestResponseException("Username is already taken");
+        }
+        if (await _userRepository.HasUserByEmailAsync(user.Email))
+        {
+            throw new Exceptions.BadRequestResponseException("Email is already taken");
+        }
 
         var entity = new User
         {
@@ -27,21 +32,36 @@ public class UserService : IUserService
             Name = user.Name,
             Username = user.Username,
             Email = user.Email,
-            PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.Password)
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.Password),
         };
 
         return await _userRepository.CreateAsync(entity);
 
     }
 
-    public async Task<List<User>> GetAllUsers()
+    public Task<List<User>> GetAllUsers()
     {
-        var users = await _userRepository.GetAllUsers();
+        return _userRepository.GetAllUsers();
+    }
 
-        if (users == null || users.Count == 0)
+    public Task<User?> GetByResourceIdAsync(Guid id)
+    {
+        return _userRepository.GetByIdAsync(id);
+    }
+
+    public async Task<User?> GetByUserAndPassword(AuthorizationRequestDto request)
+    {
+        var user = await _userRepository.GetByUsername(request.Username);
+        if (user == null)
         {
-            throw new ResourceNotFoundException("No users found.");
+            return null;
         }
-        return users;
+
+        if (!BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
+        {
+            return null;
+        }
+
+        return user;
     }
 }

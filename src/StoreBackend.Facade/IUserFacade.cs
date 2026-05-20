@@ -7,5 +7,7 @@ public interface IUserFacade
 {
     Task<List<UserDto>> GetAllUsers();
     Task<UserDto> CreateUserAsync(CreateUserDto user);
-
+    Task<UserRolesDto> GetUserRolesAsync(Guid userId);
+    Task<UserRolesDto> UpdateUserRolesAsync(Guid userId, UpdateRolesDto dto);
+    Task DeleteUserRolesAsync(Guid userId);
 }
